@@ -1,11 +1,11 @@
 <?php
-#1
+
 function hello_world() {
     echo "Hello, world!\n";
 }
 hello_world();
 
-#2
+
 function salve($nome){
 
     $nome = "Diego";
@@ -13,19 +13,16 @@ function salve($nome){
     echo "Hello $nome";
     
 }
-#3
+
 
 $nomes = array ("Diego", "Otavio", "Caio", "Davi", "Jorge", "João");
 
 echo "$nomes[5]";
 
-#4
+
 
 $nums = array (10, -10, 20, -20, 30, -30);
 
-#6
-
-#8
 
 function VerificarIdade ($idade){
   if ($idade >= 18) {
@@ -38,7 +35,7 @@ function VerificarIdade ($idade){
     echo "você é menor de idade";
   }
 }
-
+$idade = 18;
 #9
  
 $curso = [ "CursoTecnico" => "informatica"];
